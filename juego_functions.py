@@ -21,4 +21,13 @@ al encontrar el primer cero, lo sustituyo por valor_ficha
             break
         indice-=1
 
+def esta_llena(tablero,columna):
+
+    '''
+    seleccionar la columna que queremos comprobar
+    comprobar si la columna tiene huecos con un in
+    devolver true or false
+    '''
+    c=tablero[columna]
+    return 0 not in c
     
