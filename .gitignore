@@ -1,1 +1,4 @@
 micarpeta/
+.vscode/
+**__pycache__/
+captura_pantalla_conecta4
